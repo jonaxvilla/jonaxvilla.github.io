@@ -2,7 +2,7 @@ import React, { ReactNode, useState } from 'react';
 import { Menu, X, Facebook, Twitter, Instagram, Linkedin, Youtube, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import starsLogo from 'figma:asset/c5c4217966ccd203a12edf1e6f2fac93e291c0f9.png';
+import starsLogo from '/stars-logo.svg';
 
 interface LayoutProps {
   children: ReactNode;
@@ -32,7 +32,7 @@ export function Layout({ children, currentPage, onNavigate }: LayoutProps) {
               className="flex items-center space-x-2 cursor-pointer" 
               onClick={() => onNavigate('home')}
             >
-              <ImageWithFallback 
+              <img 
                 src={starsLogo} 
                 alt="STARS Logo" 
                 className="w-10 h-10 rounded-lg" 

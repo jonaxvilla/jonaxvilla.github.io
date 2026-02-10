@@ -1,7 +1,8 @@
-import image_684f383cb1a32af335831193660950adedf4ef88 from 'figma:asset/684f383cb1a32af335831193660950adedf4ef88.png';
-import image_24fb3b67abce387a0124d0ae76b0e9fe68cd7bb2 from 'figma:asset/24fb3b67abce387a0124d0ae76b0e9fe68cd7bb2.png';
-import image_2ed60adbcc0232bc5f8b573c2285104abe64643e from 'figma:asset/2ed60adbcc0232bc5f8b573c2285104abe64643e.png';
-import image_da82f1f904dae8dd9aad31ee10da63c29d8a5937 from 'figma:asset/da82f1f904dae8dd9aad31ee10da63c29d8a5937.png';
+// Placeholder images for demo purposes
+import image_684f383cb1a32af335831193660950adedf4ef88 from 'https://picsum.photos/seed/stars1/600/400.jpg';
+import image_24fb3b67abce387a0124d0ae76b0e9fe68cd7bb2 from 'https://picsum.photos/seed/stars2/600/400.jpg';
+import image_2ed60adbcc0232bc5f8b573c2285104abe64643e from 'https://picsum.photos/seed/stars3/600/400.jpg';
+import image_da82f1f904dae8dd9aad31ee10da63c29d8a5937 from 'https://picsum.photos/seed/stars4/600/400.jpg';
 import React from 'react';
 import { ArrowRight, Map, ShieldAlert, GraduationCap, Calendar, ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';
