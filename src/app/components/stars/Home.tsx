@@ -1,8 +1,7 @@
-// Placeholder images for demo purposes
-import image_684f383cb1a32af335831193660950adedf4ef88 from 'https://picsum.photos/seed/stars1/600/400.jpg';
-import image_24fb3b67abce387a0124d0ae76b0e9fe68cd7bb2 from 'https://picsum.photos/seed/stars2/600/400.jpg';
-import image_2ed60adbcc0232bc5f8b573c2285104abe64643e from 'https://picsum.photos/seed/stars3/600/400.jpg';
-import image_da82f1f904dae8dd9aad31ee10da63c29d8a5937 from 'https://picsum.photos/seed/stars4/600/400.jpg';
+// Placeholder images for demo purposes - using direct URLs to avoid Vite MIME import issues
+
+// Direct image URL for the one actually used in the component
+const logoImage = 'https://picsum.photos/seed/stars1/600/400.jpg';
 import React from 'react';
 import { ArrowRight, Map, ShieldAlert, GraduationCap, Calendar, ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -142,7 +141,7 @@ export function Home({ onNavigate }: HomeProps) {
               <div className="absolute bottom-0 left-0 w-2/3 h-2/3 bg-orange-100 rounded-3xl -z-10 transform -translate-x-6 translate-y-6" />
               <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white aspect-[4/3]">
                  <ImageWithFallback 
-                    src={image_684f383cb1a32af335831193660950adedf4ef88} 
+                    src={logoImage} 
                     alt="Logo"
                     className="w-full h-full object-contain rounded-[10px]"
                  />
